@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark to light</title>
+    <style>
+        .light{
+            background-color: #fff;
+            color: black;
+        }
+        .dark{
+            background-color: rgb(37, 34, 34);
+            color: white;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #box{
+            text-align: center;
+            margin-top: 40px;
+            transition: all ease-in-out 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <button id="mode">Click Me</button>
+    <div id="box">
+        Counter
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
